@@ -4,11 +4,15 @@
 
 //Code here
 
+var myName = "Tyler";
+
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+
+var myAge = 23;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,17 +20,23 @@
 
 //Code here
 
+var lovesCode = true;
+
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
 
+var greatestFear = undefined;
+
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+
+var devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -36,6 +46,10 @@
 //plus the value of the name parameter.
 
 //Code here
+
+function greeting(name) {
+  return "Hello, " + name;
+}
 
 
 //////////////////PROBLEM 7////////////////////
