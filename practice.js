@@ -148,7 +148,7 @@ var mathSum = add(3,4);
 
 function faveColorFinder(color) {
   if (color === "red") {
-    return "res is a great color";
+    return "red is a great color";
   } else if (color === "green") {
     return "green is a solid favorite color";
   } else if (color === "black") {
@@ -189,7 +189,7 @@ let bathroomScope = ["duck", "rubberDuck"];
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
