@@ -59,6 +59,9 @@ function greeting(name) {
 
 //Code Here
 
+var newGreeting = function(name) {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -66,6 +69,8 @@ function greeting(name) {
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -76,10 +81,19 @@ function greeting(name) {
 
 //Code Here
 
+var dog = {
+  name: "Fido",
+  color: "Black",
+  age: 2,
+  goodBoy: true
+};
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
